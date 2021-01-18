@@ -19,5 +19,6 @@ function selectionSort(array){
     newMin = findMinAndRemove(array);
     sorted.push(newMin);
   }
+
   return sorted;
 }
